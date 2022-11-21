@@ -19,7 +19,7 @@ namespace BoardManagementSystem.Controllers
         [HttpPost]
         public async Task<IActionResult> UploadDocument(String fileName, List<IFormFile> files)
         {
-            bool success =false;
+            bool success = false;
             ApiResponse response = new ApiResponse();
             DocumentDetail details = new DocumentDetail();
 
@@ -27,7 +27,8 @@ namespace BoardManagementSystem.Controllers
             details.UplodadedOn = DateTime.Now;
             details.DocumentDescription = "";
             details.Displayname = fileName;
-            if (files.Count == 0) {
+            if (files.Count == 0)
+            {
 
                 response.description = "Failed";
                 response.success = false;
@@ -36,24 +37,51 @@ namespace BoardManagementSystem.Controllers
 
             string path = Path.Combine(_webHostEnvironment.ContentRootPath, "Uploads");
 
-            foreach (var file in files) {
+            foreach (var file in files)
+            {
 
                 string filePath = Path.Combine(path, fileName);
 
-                using (var stream = new FileStream(filePath, FileMode.Create)) {
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
 
                     await file.CopyToAsync(stream);
                     _uploadRepository.uploadDocument(details);
                     success = true;
-                    response.responseObject =details;
+                    response.responseObject = details;
                 }
 
 
             }
 
             return Ok(success);
-      
+
         }
-    
+
+        [HttpGet("Downloadfile")]
+        public async Task<IActionResult> DownloadFile(String fileName)
+        {
+            try
+            {
+                string path = Path.Combine(_webHostEnvironment.ContentRootPath, "Uploads");
+
+                string filePath = Path.Combine(path, fileName); // Here, you should validate the request and the existance of the file.
+
+                if (filePath == null)
+                {
+                    return Ok(false);
+                }
+
+                var bytes = await System.IO.File.ReadAllBytesAsync(filePath);
+                return File(bytes, "text/plain", Path.GetFileName(filePath));
+            }
+            catch (Exception)
+            {
+
+                return BadRequest("Could not get file or file does not exist");
+            }
+
+        }
+
     }
 }

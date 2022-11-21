@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nashe\\OneDrive\\Desktop\\workspace\\BoardManagementSystem\\BoardManagementSystem\\BoardManagementSystem\\BoardManagementSystem.csproj": {}
+    "C:\\Users\\nashe\\OneDrive\\Desktop\\workspace\\New folder\\BoardManagement\\boardmanagementsystem\\BoardManagementSystem\\BoardManagementSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nashe\\OneDrive\\Desktop\\workspace\\BoardManagementSystem\\BoardManagementSystem\\BoardManagementSystem\\BoardManagementSystem.csproj": {
+    "C:\\Users\\nashe\\OneDrive\\Desktop\\workspace\\New folder\\BoardManagement\\boardmanagementsystem\\BoardManagementSystem\\BoardManagementSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nashe\\OneDrive\\Desktop\\workspace\\BoardManagementSystem\\BoardManagementSystem\\BoardManagementSystem\\BoardManagementSystem.csproj",
+        "projectUniqueName": "C:\\Users\\nashe\\OneDrive\\Desktop\\workspace\\New folder\\BoardManagement\\boardmanagementsystem\\BoardManagementSystem\\BoardManagementSystem.csproj",
         "projectName": "BoardManagementSystem",
-        "projectPath": "C:\\Users\\nashe\\OneDrive\\Desktop\\workspace\\BoardManagementSystem\\BoardManagementSystem\\BoardManagementSystem\\BoardManagementSystem.csproj",
+        "projectPath": "C:\\Users\\nashe\\OneDrive\\Desktop\\workspace\\New folder\\BoardManagement\\boardmanagementsystem\\BoardManagementSystem\\BoardManagementSystem.csproj",
         "packagesPath": "C:\\Users\\nashe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nashe\\OneDrive\\Desktop\\workspace\\BoardManagementSystem\\BoardManagementSystem\\BoardManagementSystem\\obj\\",
+        "outputPath": "C:\\Users\\nashe\\OneDrive\\Desktop\\workspace\\New folder\\BoardManagement\\boardmanagementsystem\\BoardManagementSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nashe\\AppData\\Roaming\\NuGet\\NuGet.Config",

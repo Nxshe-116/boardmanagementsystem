@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8ocIt9g8Q4yA+w1jzS55PmES9rlUxFfF0Cm9smpPo7AG1cJ+lkR05SE4tQ6wGXmgOqJ17IAjfYpnLrQ2qrd+qQ==",
+  "dgSpecHash": "p66ig0W0x0E7lMYGvDbipQrZAxszo7agMz7b3lryhdXg+j3ydtq4z9aMUq4iYH2E/wc3GE7ogcQ9BI3kKsuz9Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nashe\\OneDrive\\Desktop\\workspace\\BoardManagementSystem\\BoardManagementSystem\\BoardManagementSystem\\BoardManagementSystem.csproj",
+  "projectFilePath": "C:\\Users\\nashe\\OneDrive\\Desktop\\workspace\\New folder\\BoardManagement\\boardmanagementsystem\\BoardManagementSystem\\BoardManagementSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nashe\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\nashe\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
