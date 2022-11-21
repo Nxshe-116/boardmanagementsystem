@@ -17,16 +17,12 @@ namespace BoardManagementSystem.Controllers
             _uploadRepository = uploadRepository;
         }
         [HttpPost]
-        public async Task<IActionResult> UploadDocument(String fileName, List<IFormFile> files)
+        public async Task<IActionResult> UploadDocument(String fileName, List<IFormFile> files, String description)
         {
             bool success = false;
             ApiResponse response = new ApiResponse();
             DocumentDetail details = new DocumentDetail();
 
-            details.DocumentName = fileName;
-            details.UplodadedOn = DateTime.Now;
-            details.DocumentDescription = "";
-            details.Displayname = fileName;
             if (files.Count == 0)
             {
 
@@ -40,7 +36,12 @@ namespace BoardManagementSystem.Controllers
             foreach (var file in files)
             {
 
-                string filePath = Path.Combine(path, fileName);
+                details.DocumentName = file.FileName;
+                details.UplodadedOn = DateTime.Now;
+                details.DocumentDescription = description;
+                details.Displayname = fileName;
+
+                string filePath = Path.Combine(path, file.FileName);
 
                 using (var stream = new FileStream(filePath, FileMode.Create))
                 {
