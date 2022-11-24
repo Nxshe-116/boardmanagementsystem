@@ -10,4 +10,4 @@ namespace BoardManagementSystem.Models
         public long TeloneRoleID { get; set; }
     }
 }
-}
+
