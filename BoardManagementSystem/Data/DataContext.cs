@@ -12,5 +12,11 @@ namespace BoardManagementSystem.Data
         }
 
         public DbSet<DocumentDetail> Documents { get; set; }
+
+        public DbSet<User> TeloneUsers { get; set; }
+
+        public DbSet<Role> Roles { get; set; }
+
+        public DbSet<TeloneUserRole> TeloneUserRoles { get; set; }
     }
 }
