@@ -172,3 +172,7 @@ C:\Users\nashe\OneDrive\Desktop\workspace\New folder\BoardManagement\boardmanage
 C:\Users\nashe\OneDrive\Desktop\workspace\New folder\BoardManagement\boardmanagementsystem\BoardManagementSystem\obj\Debug\net6.0\BoardManagementSystem.csproj.CopyComplete
 C:\Users\nashe\OneDrive\Desktop\workspace\New folder\BoardManagement\boardmanagementsystem\BoardManagementSystem\obj\Debug\net6.0\BoardManagementSystem.genruntimeconfig.cache
 C:\Users\nashe\OneDrive\Desktop\workspace\New folder\BoardManagement\boardmanagementsystem\BoardManagementSystem\obj\Debug\net6.0\ref\BoardManagementSystem.dll
+C:\Users\nashe\OneDrive\Desktop\workspace\New folder\BoardManagement\boardmanagementsystem\BoardManagementSystem\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\nashe\OneDrive\Desktop\workspace\New folder\BoardManagement\boardmanagementsystem\BoardManagementSystem\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\Users\nashe\OneDrive\Desktop\workspace\New folder\BoardManagement\boardmanagementsystem\BoardManagementSystem\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\nashe\OneDrive\Desktop\workspace\New folder\BoardManagement\boardmanagementsystem\BoardManagementSystem\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
